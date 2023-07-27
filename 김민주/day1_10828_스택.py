@@ -2,6 +2,8 @@
 # 1. 런타임 에러 대비 입출력 속도 비교 : sys.stdin.readline > raw_input() > input() 
 # 2. split(sep='구분자', maxsplit=분할횟수): 문자열을 쪼개어 다시 리스트로 만드는 함수
 
+import sys
+
 stack = []
 
 def isEmpty() -> bool:
