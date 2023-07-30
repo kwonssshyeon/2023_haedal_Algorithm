@@ -68,17 +68,3 @@
 
 </div>
 </details>
-
-
-<details>
-<summary>풀이과정</summary>
-<div markdown="1">
-
-행은 현재 고려중인 집,<br>
-열은 r, g, b<br>
-각 셀은 현재 선택중인 집에 선택한 색을 칠했을 때의 최소비용<br>
-  을 나타내는 2차원 배열을 선언.<br>
-마지막 행의 최솟값 선택.<br>
-
-</div>
-</details>
