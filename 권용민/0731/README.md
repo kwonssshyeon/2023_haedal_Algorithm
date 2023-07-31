@@ -32,7 +32,9 @@
 <summary>풀이과정</summary>
 <div markdown="1">
 피보나치 수는 행렬화가 가능하다.<br>
->$$
+[ F_{n+1}, F_{n} ]    [ 1, 1 ] ^n
+[ F_{n}, F_{n-1} ]  = [ 1, 0 ]
+ $$
  \begin{pmatrix}
   F_{n+1} & F_{n} \\
   F_{n} & F_{n-1} \\
