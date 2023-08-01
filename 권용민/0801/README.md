@@ -36,7 +36,8 @@
 
 아니 queue자료형에서 dequeue로 바꿨는데 왜 되냐고요....<br>
 dequeue보다 queue가 더 빨라야 하는거 아니냐고요<br>
-어쩐지 블로그가 다들 dequeue쓰더라
+어쩐지 블로그가 다들 dequeue쓰더라<br><br>
+arr[x][y][w] 3차원 배열을 구현한다. 여기서 w는 벽부수기를 사용했는지 여부를 나타낸다
   
 </div>
 </details>
