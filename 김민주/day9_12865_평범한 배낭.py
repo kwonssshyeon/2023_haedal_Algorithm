@@ -1,5 +1,6 @@
 # https://www.acmicpc.net/problem/12865 평범한 배낭
 # 짐을 쪼갤 수 없음... 넣든가 빼든가 둘 중 하나
+# https://claude-u.tistory.com/208 여기 설명 참고
 # 
 # n: 짐의 개수
 # w, v: 각 짐의 무게와 가치
@@ -29,10 +30,10 @@ if __name__ == "__main__":
   # 물건을 담을지 말지... 결정
   for i in range(1, n+1):
     for j in range(1, k+1):
-      w = stuff[i][0]; v = stuff[i][1] # 해당 물건의 무게와 가치
+      w = stuff[i][0]; v = stuff[i][1] # 넣을 물건의 무게와 가치
 
-      if j < w: # 물건 무게가 최대 무게보다 작으면?
-        pack[i][j] = pack[i-1][j] # 윗칸 그대로 가져옴
+      if j < w: # 넣을 무게가 허용 무게보다 크면
+        pack[i][j] = pack[i-1][j] # [이전 물건][같은 무게] 그대로 가져옴. pass
       else:
         pack[i][j] = max( (pack[i-1][j-w] + v), pack[i-1][j] ) # 둘 중에 뭘 담을지 정해라
   
