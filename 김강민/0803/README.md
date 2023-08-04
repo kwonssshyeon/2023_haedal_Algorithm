@@ -79,6 +79,7 @@ Empty
 ## 잡담
 
 아무 생각없이 temp를 써야한다고 생각해서
+<br>
 '''
 my_string = list(my_string)
 '''
