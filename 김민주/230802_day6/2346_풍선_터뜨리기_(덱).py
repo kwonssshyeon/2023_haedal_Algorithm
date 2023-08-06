@@ -1,9 +1,4 @@
 # https://www.acmicpc.net/problem/2346 풍선 터뜨리기
-# 1. 인덱스를 출력해야 하므로 골치 아픔.
-#     rotate를 해도 원래 덱의 인덱스 값은 보존되어야 한다. ->
-#     덱을 복제해두어야 하나? 했는데 enumerate()와 map()을 사용하면 됨.
-# 2. rotate 값을 어떻게 해야하는지 뇌 안 돌아감 이슈
-# 3. deq.popleft()가 튜플을 반환할 수도 있나?? 괜히 함수 만들고 시간낭비 함. 
 
 from collections import deque
 import sys
