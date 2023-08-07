@@ -11,7 +11,7 @@ for _ in range(n):
     else:
         del state[name]
 
-temp = sorted(state.keys(), reverse=True)
+state = sorted(state.keys(), reverse=True)
 
 for i in state:
     print(i)
