@@ -29,10 +29,10 @@ for x in range(1, 15*28*19+1):
       s_list.append(x)  
     if x % 19 == m:  
       m_list.append(x)  
-  
+      
     is_in_all_lists = x in e_list and x in s_list and x in m_list  
     if is_in_all_lists:   
       print(x)  
       break  
-'''
+  '''
 sol2. (x - e) % 15 == 0: x에서 e를 뺀 값이 0으로 나누어떨어지는가  
