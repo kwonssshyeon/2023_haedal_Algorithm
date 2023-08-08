@@ -39,10 +39,11 @@ for x in range(1, 15*28*19+1):
 sol2. (x - e) % 15 == 0: x에서 e를 뺀 값이 0으로 나누어떨어지는가  
 ```python
 x = 1
-  while True:
-    if (x - e) % 15 == 0 and (x - s) % 28 == 0 and (x - m) % 19 == 0:
-      print(x)
-    x += 1
+while True:
+  if (x - e) % 15 == 0 and (x - s) % 28 == 0 and (x - m) % 19 == 0:
+    print(x)
+    break
+  x += 1
 ```
 > 구하는 값의 범위가 정해져있지 않고 걍 계속 검사해야 하므로 for문 대신 while문으로 묶었다. 
 
