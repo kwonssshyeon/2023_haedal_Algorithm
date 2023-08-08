@@ -21,7 +21,7 @@ x % 19 = m
   
 -> 거꾸로 가려면 어떻게 해야하지?  
 sol1. 가능한 e, s, m 리스트를 만들고 겹치는 최솟값을 찾는다. -> 틀림  
-'''  
+```python
 for x in range(1, 15*28*19+1):  
     if x % 15 == e:  
       e_list.append(x)  
@@ -34,5 +34,5 @@ for x in range(1, 15*28*19+1):
     if is_in_all_lists:   
       print(x)  
       break  
-  '''
+  ```
 sol2. (x - e) % 15 == 0: x에서 e를 뺀 값이 0으로 나누어떨어지는가  
