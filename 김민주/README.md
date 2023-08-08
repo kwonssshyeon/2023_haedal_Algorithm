@@ -12,3 +12,4 @@
 -   8월 05일_day 9 [3040] [백설 공주와 일곱 난쟁이 (brute-force)](./230805_day9/3040_백설_공주와_일곱_난쟁이_(brute-force).py)
 -   8월 06일_day 10 [4673] [셀프 넘버 (brute-force)](./230806_day10/4673_셀프_넘버_(brute-force).py)
 -   8월 07일_day 11 [1065] [한수 (brute-force)](./230807_day11/1065_한수_(brute-force).py)
+-   8월 08일_day 12 [1476] [날짜 계산 (brute-force)](./230808_day12)
