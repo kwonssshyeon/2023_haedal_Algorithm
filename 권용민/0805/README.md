@@ -1,4 +1,4 @@
-# 8/1
+# 8/5
 ## 트리의 지름 - 1167 
 
 [문제 링크](https://www.acmicpc.net/problem/1167) 

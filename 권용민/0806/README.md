@@ -1,4 +1,4 @@
-# 8/1
+# 8/6
 ## 파티 - 1238 
 
 [문제 링크](https://www.acmicpc.net/problem/1238) 
