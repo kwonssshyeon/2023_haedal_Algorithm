@@ -22,15 +22,18 @@ dx + ey = f
 
 #### 백준 온라인 저지 시스템 몇 가지 정리  
 
-1. 최소공배수(LCM) 구할 때  
+1. 최소공배수(LCM) 구하기
+    > [파이썬, Python] 최소공배수(LCM) https://computer-science-student.tistory.com/585
+    근데  
 ```python
 lcm = math.lcm(a, d)
 ```
-이건 안 되고  
+    이건 안 되고  
 ```python
 lcm = abs(a * d) // math.gcd(a, d)
 ```
-이렇게 gcd() 이용해서 구해야 함. 왜냐하면 백준은 파이썬 3.7로 돌아가는데 **lcm()은 3.9부터 지원해서...**  
+    이렇게 gcd() 이용해서 구해야 함.  
+    왜냐하면 백준은 파이썬 3.7로 돌아가는데 **lcm()은 3.9부터 지원해서...**  
 <br/>
   
 2. 나누는 수인 a와 d가 0인 경우를 고려하지 않았어서 런타임 에러(ZeroDivisionError)가 계속 났음.  
