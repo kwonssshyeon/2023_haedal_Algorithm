@@ -24,20 +24,20 @@ x % 19 = m
 sol1. 가능한 e, s, m 리스트를 만들고 겹치는 최솟값을 찾는다. -> 시간 초과
 ```python
 e_list = []; s_list = []; m_list = []
-  year = 1
-  while True: # 범위 없이 계속 돌아야 함
-    if year % 15 == e:
-      e_list.append(year)
-    if year % 28 == s:
-      s_list.append(year)
-    if year % 19 == m:
-      m_list.append(year)
+year = 1
+while True: # 범위 없이 계속 돌아야 함
+  if year % 15 == e:
+    e_list.append(year)
+  if year % 28 == s:
+    s_list.append(year)
+  if year % 19 == m:
+    m_list.append(year)
 
-    is_in_all_lists = year in e_list and year in s_list and year in m_list
-    if is_in_all_lists: 
-      print(year)
-      break
-    year += 1
+  is_in_all_lists = year in e_list and year in s_list and year in m_list
+  if is_in_all_lists: 
+    print(year)
+    break
+  year += 1
 ```
 sol2. (year - e) % 15 == 0: year에서 e를 뺀 값이 0으로 나누어떨어지는가  
 ```python
