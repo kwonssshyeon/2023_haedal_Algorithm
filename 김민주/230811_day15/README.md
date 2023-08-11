@@ -1,8 +1,8 @@
 1991 트리 순회  
 ================  
 preorder, inorder, postorder 트리 순회하기  
+![주어진 트리](./IMG_4144.png)  
 [누르면 문제로 이동](https://www.acmicpc.net/problem/1991)  
-![주어진 트리](./img/)
 
 -----------------------
 
