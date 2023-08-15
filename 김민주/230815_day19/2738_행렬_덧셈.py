@@ -10,10 +10,10 @@ A = [[0 for _ in range(col)] for _ in range(row)]
 B = [[0 for _ in range(col)] for _ in range(row)]
 
 for i in range(row):
-  data = list(map(int, input().split()))
+  data_list = list(map(int, input().split()))
   # 한 줄에 여러 개가 들어와서 줄별로 리스트 만들어 저장
   for j in range(col):
-    A[i][j] = data[j]
+    A[i][j] = data_list[j]
 
 for i in range(row):
   data_list = list(map(int, input().split()))
