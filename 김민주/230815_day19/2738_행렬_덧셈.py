@@ -16,9 +16,9 @@ for i in range(row):
     A[i][j] = data[j]
 
 for i in range(row):
-  data = list(map(int, input().split()))
+  data_list = list(map(int, input().split()))
   for j in range(col):
-    B[i][j] = data[j]
+    B[i][j] = data_list[j]
 
 # 출력
 for i in range(row):
