@@ -1,0 +1,38 @@
+import sys
+
+def find_ancestor(a):
+    if parent[a] > -1:
+        ancestor_a = find_ancestor(parent[a])
+        parent[a] = ancestor_a
+        return ancestor_a
+    return a
+
+n, m = map(int, sys.stdin.readline().split())
+parent = [-1 for _ in range(n+1)]
+node_level = [1 for _ in range(n+1)]
+for i in range(m):
+    opt, a, b = map(int, sys.stdin.readline().split())
+    ancestor_a = find_ancestor(a)
+    ancestor_b = find_ancestor(b)
+    if opt == 0:
+        if ancestor_a == ancestor_b:
+            continue
+        
+        if node_level[ancestor_a] < node_level[ancestor_b]:
+            parent[ancestor_a] = ancestor_b
+        else:
+            parent[ancestor_b] = ancestor_a
+
+            if node_level[ancestor_a] == node_level[ancestor_b]:
+                node_level[ancestor_a] += 1
+    else:
+        if ancestor_a == ancestor_b:
+            print('YES')
+        else:
+            print('NO')
+
+"""
+기본 union-find 문제
+주의점은 find 연산할 때 마다 트리를 붕괴시켜 재귀에 필요한 깊이를 낮추는 것과
+union 연산할 때 높이가 더 낮은 트리를 높은 트리의 루트에다 붙이는 것
+"""
