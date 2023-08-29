@@ -3,7 +3,6 @@ input = sys.stdin.readline
 
 A = []
 B = []
-C = []
 
 N, M = map(int, input().split())
 
