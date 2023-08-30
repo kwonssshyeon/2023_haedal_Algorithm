@@ -1,4 +1,4 @@
-# 2023_summer_Algorithm
+# 2023_headal_Algorithm
 해달해커톤 2탄 - 알고리즘 스터디
 ## 작업 방법
 1. main 브렌치의 최신 커밋에서 자신의 브렌치를 만들고 체크아웃한다.
