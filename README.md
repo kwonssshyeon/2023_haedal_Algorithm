@@ -1,56 +1,24 @@
 # 2023_headal_Algorithm
 해달해커톤 2탄 - 알고리즘 스터디
-## 작업 방법
-1. main 브렌치의 최신 커밋에서 자신의 브렌치를 만들고 체크아웃한다.
-    - 브렌치명 형식 : `날짜_이름`, ex) `0718_dong`
-2. 자기 폴더에 오늘 날짜에 해당하는 폴더를 만들고, 해당 폴더에 `README.md` 파일과 소스 코드 파일을 만든다.
-3. `README.md` 파일에는 오늘 푼 문제 중 정리하고 싶은 문제를 정리하여 작성한다.
-4. 소스 코드 파일에는 정리한 문제에 대한 소스 코드를 기입한다.
-5. 자기 폴더의 `README.md` 파일(ex. `/김동환/REAMD.md`)에 해당 폴더에 대한 링크를 기입한다.
-    - 링크의 형식은 `[7월 18일](./0718/)` 해당 형태로 작성할 수 있다.
-6. 작업이 끝나면 커밋하고, main 브렌치에 Merge한다.
-    - 이때, 따로 질문할 것이 없거나 크게 공유할 것이 없으면 그냥 바로 Merge한다.
-    - 만약 코드 리뷰를 받고 싶거나 공유하고 싶은게 있다면 PR을 통해 리뷰를 받고 Merge한다.
-7. Merge가 끝나면 해당 작업 브렌치는 삭제한다.
 
-### Git 사용법
-``` bash
-# 1. main 브렌치의 최신 커밋에서 자신의 브렌치를 만들고 체크아웃한다.
-## main 브렌치에 체크아웃
-git switch main
-## 깃헙 원격 저장소에서 main 브렌치의 최신 버전을 가져옴. (다른 사람이 main 브렌치에 새로운 커밋을 머지했을 수 있으니)
-git pull origin main
-## 0718_dong 브렌치를 만들면서 체크아웃
-git switch -c 0718_dong
+## 규칙
+- **매주 일요일**까지 단톡방에 다음주 문제 풀 횟수 말해주기
+- 미리 횟수 안정해주면 7일!
+- 미리 횟수를 스스로 정했으므로 정말 중요하거나 바쁜 일정 아니면 인정 X
+- 못풀것 같다고 미리 말했을때 모두 인정해주면 인정해드려요!
+- **새벽 2시**까지 제출해야 인정합니다! (지각 제출 X)
+- 양심적으로 실버 이상 문제 풉시다!
+- 프로그래머스도 인정합니다!
+- 각자 브랜치 파서 문제풀고, 메인에 머지해주세요!
+### 벌금
+- 안 푼 횟수 x 1,000원 (한달동안 누적입니다!)
+- 일주일 미참 == 10,000원 (괘씸죄 적용입니다!)
+- 모임통장으로 각자 입금하시면 됩니다!
+### 후원
+1000-7412-0700 토스뱅크
+## 알고리즘 스터디 참여자
+| 권수현 | 권용민 | 이수현 | 김강민 | 김민주 |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| [<img src="https://github.com/kwonssshyeon.png" width="100px">](https://github.com/kwonssshyeon) | [<img src="https://github.com/rnjs5540.png" width="100px">](https://github.com/rnjs5540) | [<img src="https://github.com/DingX2.png" width="100px">](https://github.com/DingX2) | [<img src="https://github.com/dobbymin.png" width="100px">](https://github.com/dobbymin) | [<img src="https://github.com/joojjang.png" width="100px">](https://github.com/joojjang) | 
 
-# 2. 3. 4. 5. 는 Git과 무관
-
-# 6. 작업이 끝나면 커밋하고, main 브렌치에 Merge한다.
-## 작업했던 모든 파일들(변경사항)을 새로운 커밋(버전)의 대상으로 만들어준다.
-git add .
-## 새로운 커밋(버전)을 만든다. (커밋한다.)
-git commit -m "적절한 설명을 꼭 적어주세요."
-
-## 그냥 Merge
-### main 브렌치로 체크아웃한다.
-git switch main
-### 0718_dong 브렌치에서 작업했던 결과물(커밋)들을 현재 브렌치(main)에 머지한다.
-git merge 0718_dong
-### 작업했던 결과물(커밋)들을 깃허브에 반영(푸쉬)한다.
-git push origin main
-
-## PR
-### 작업 중이던 브렌치를 깃허브에 반영(푸쉬)한다.
-git push origin 0718_dong
-### github의 레포지토리 페이지에서 Pull Requests 섹션에 들어간다.
-### New Pull Requests 버튼을 누르고, Base를 main으로 Compare를 0718_dong 브렌치로 설정한다.
-### 적절한 제목 및 본문을 추가하고 Create Pull Requests 버튼을 누른다.
-### 이후 적절히 리뷰 등을 받고 해당 페이지에서 머지할 수 있다.
-
-# 7. Merge가 끝나면 해당 작업 브렌치는 삭제한다.
-git branch -D 0718_dong
-```
-
-### Markdown 문법
-<https://velog.io/@gidskql6671/Markdown-%EB%AC%B8%EB%B2%95>  
-해당 페이지 참조해주세용
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkwonssshyeon%2F2023_haedal_Algorithm.git&count_bg=%2308EDDD&title_bg=%23555555&icon=&icon_color=%23C4C4C4&title=%EB%B0%A9%EB%AC%B8%EC%9E%90+%EC%88%98&edge_flat=false)](https://hits.seeyoufarm.com)
