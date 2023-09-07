@@ -3,12 +3,12 @@ from collections import deque
 
 n, target = map(int,input().split())
 visited = [False]*100001
-cnt = [0]*100001
+cnt = [-1]*100001
 
 queue = deque()
 queue.append(n)
 visited[n]=True
-
+cnt[n]=0
 
 result = 0
 while queue:
@@ -31,6 +31,12 @@ while queue:
                 queue.append(next)
 
 print(result)
+
+
+
+# dp로 풀랬는데 min(dp[i-1]+1, dp[i/2], dp[i+1]+1) --> 값이 갱신되는 시점이 꼬이면서 계속틀림
+# 가중치가 0~1일때는 bfs / 다익스트라를 이용할 수 있다
+# 그래프라고는 생각도 못했는걸 ..
 
 
 # 너비우선탐색으로 풀었을 때 queue 에 순서대로 들어가면 안됨
