@@ -1,4 +1,4 @@
-[15894_수학은_체육과목_입니다](https://www.acmicpc.net/problem/15894)  
+[15894 수학은 체육과목 입니다](https://www.acmicpc.net/problem/15894)  
 ===========
 ### 문제  
 
