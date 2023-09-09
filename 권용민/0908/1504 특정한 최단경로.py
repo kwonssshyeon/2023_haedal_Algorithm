@@ -50,3 +50,10 @@ if sys.maxsize == route1 == route2:
     print(-1)
 else:
     print(min((route1, route2)))
+
+'''
+파이썬 안돼서 다 지우고 새로깔았다.. 피곤쓰
+
+1-v1-v2-N 이랑
+1-v2-v1-N 각각을 다익스트라로 구한 후 비교
+'''
