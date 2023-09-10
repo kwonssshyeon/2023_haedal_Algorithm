@@ -17,8 +17,8 @@
 ### 후원
 1000-7412-0700 토스뱅크
 ## 알고리즘 스터디 참여자
-| 권수현 | 권용민 | 이수현 | 이규회 | 김강민 | 김민주 |
+| 권수현 | 권용민 | 이수현 | 이규회 | 김민주 | 김강민 |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-| [<img src="https://github.com/kwonssshyeon.png" width="100px">](https://github.com/kwonssshyeon) | [<img src="https://github.com/rnjs5540.png" width="100px">](https://github.com/rnjs5540) | [<img src="https://github.com/DingX2.png" width="100px">](https://github.com/DingX2) | [<img src="https://github.com/KimKyuHoi.png" width="100px">](https://github.com/KimKyuHoi) | [<img src="https://github.com/dobbymin.png" width="100px">](https://github.com/dobbymin) | [<img src="https://github.com/joojjang.png" width="100px">](https://github.com/joojjang) | 
+| [<img src="https://github.com/kwonssshyeon.png" width="100px">](https://github.com/kwonssshyeon) | [<img src="https://github.com/rnjs5540.png" width="100px">](https://github.com/rnjs5540) | [<img src="https://github.com/DingX2.png" width="100px">](https://github.com/DingX2) | [<img src="https://github.com/KimKyuHoi.png" width="100px">](https://github.com/KimKyuHoi)  | [<img src="https://github.com/joojjang.png" width="100px">](https://github.com/joojjang) | [<img src="https://github.com/dobbymin.png" width="100px">](https://github.com/dobbymin)
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fkwonssshyeon%2F2023_haedal_Algorithm.git&count_bg=%2308EDDD&title_bg=%23555555&icon=&icon_color=%23C4C4C4&title=%EB%B0%A9%EB%AC%B8%EC%9E%90+%EC%88%98&edge_flat=false)](https://hits.seeyoufarm.com)
