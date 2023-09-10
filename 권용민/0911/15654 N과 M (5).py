@@ -17,6 +17,8 @@ def func(printedCount):
             func(printedCount + 1)
             printed[i] = False
 
-
-
 func(0)
+
+'''
+골드1 구경하고 실버3풀기 ㅎ..
+'''
