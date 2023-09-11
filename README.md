@@ -17,7 +17,7 @@
 ### 후원
 1000-7412-0700 토스뱅크
 ## 알고리즘 스터디 참여자
-| 권수현 | 권용민 | 이수현 | 이규회 | 김민주 | 김강민 |
+| 권수현 | 권용민 | 이수현 | 김규회 | 김민주 | 김강민 |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
 | [<img src="https://github.com/kwonssshyeon.png" width="100px">](https://github.com/kwonssshyeon) | [<img src="https://github.com/rnjs5540.png" width="100px">](https://github.com/rnjs5540) | [<img src="https://github.com/DingX2.png" width="100px">](https://github.com/DingX2) | [<img src="https://github.com/KimKyuHoi.png" width="100px">](https://github.com/KimKyuHoi)  | [<img src="https://github.com/joojjang.png" width="100px">](https://github.com/joojjang) | [<img src="https://github.com/dobbymin.png" width="100px">](https://github.com/dobbymin)
 
