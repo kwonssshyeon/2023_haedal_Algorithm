@@ -50,10 +50,10 @@ f(n) = 7n + 7, g(n) = n, c = 8, n0 = 10이다.
 ### 풀이  
   
 --------------
-if (모든 n >= n0에 대해 f(n) <= c * g(n)):
-    print(1)
-else:
-    print(0)
+if (모든 n >= n0에 대해 f(n) <= c * g(n)):  
+    print(1)  
+else:  
+    print(0)  
 
 ### note  
 
