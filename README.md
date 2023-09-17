@@ -1,4 +1,4 @@
-# 2023_headal_Algorithm
+# 2023_haedal_Algorithm
 해달해커톤 2탄 - 알고리즘 스터디
 
 ## 규칙
