@@ -1,0 +1,24 @@
+import sys
+
+input = sys.stdin.readline
+
+N = int(input())
+ary = [[0 for i in range(100)] for j in range(100)]
+
+for i in range(N):
+    X, Y = map(int, input().split())
+    for j in range(Y, Y + 10):
+        for k in range(X, X + 10):
+            if ary[j][k] == 0:
+                ary[j][k] = 1
+
+# for i in range(100):
+#     for j in range(100):
+#         print(ary[i][j], end="")
+#     print("")
+
+total_count = 0
+for row in ary:
+    total_count += row.count(1)
+print(total_count)
+# print(ary)
