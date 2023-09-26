@@ -64,8 +64,8 @@ N은 홀수
 ### 풀이  
   
 -----
-**최빈값 구하기**
-딕셔너리로 풀려고 했었으나 시간 초과
+**최빈값 구하기**  
+Sol 1. 딕셔너리로 풀려고 했었으나 시간 초과  
 ```python
 max_value = max(num_frequency.values()) # 횟수 중 가장 큰 값
 max_keys = [key for key, value in num_frequency.items() if value == max_value] # 최빈값(들)
@@ -74,10 +74,10 @@ if len(max_keys) > 1:
 else: 
     mode = max_keys[0]
 ```
-
-Sol 2. collections 모듈 - Counter 클래스 이용
-Counter(nums): nums 리스트의 각 요소의 빈도를 계산하여 각 숫자와 그 빈도 저장
-count.most_common(): 빈도가 높은 순서대로 정렬된 숫자와 빈도의 쌍을 리스트로 반환
+<br>
+Sol 2. collections 모듈 - Counter 클래스 이용  
+Counter(nums): nums 리스트의 각 요소의 빈도를 계산하여 각 숫자와 그 빈도 저장  
+count.most_common(): 빈도가 높은 순서대로 정렬된 숫자와 빈도의 쌍을 리스트로 반환  
 
 <br>
 
