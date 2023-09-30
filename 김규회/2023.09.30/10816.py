@@ -5,19 +5,19 @@ import sys
 input = sys.stdin.readline
 
 n = int(input())
-a = sorted(list(map(int,input().split())))
+x = sorted(list(map(int,input().split())))
 m = map(int,input().split())
-b = list(map(int,input().split()))
+y = list(map(int,input().split()))
 
 cnt = {}
 
-for i in a:
+for i in x:
     if i in cnt:
         cnt[i] += 1
     else:
         cnt[i] = 1
         
-for i in b:
+for i in y:
     if i in cnt:
         print(cnt[i], end = ' ')
     else:
