@@ -2,7 +2,6 @@ import sys
 
 input = sys.stdin.readline
 
-
 def origami(test_case):
     length = len(test_case) // 2
     print(length)
