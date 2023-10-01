@@ -1,4 +1,4 @@
-# [](https://www.acmicpc.net/problem/)  
+[](https://www.acmicpc.net/problem/)  
 =====
 
 ### 문제 요약
