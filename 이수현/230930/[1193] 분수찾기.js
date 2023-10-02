@@ -1,6 +1,6 @@
 const fs = require("fs");
-// const input = fs.readFileSync("/dev/stdin").toString().trim();
-const input = fs.readFileSync("input.txt").toString().trim();
+const input = fs.readFileSync("/dev/stdin").toString().trim();
+// const input = fs.readFileSync("input.txt").toString().trim();
 
 let sum = 0;
 let n = 0;
