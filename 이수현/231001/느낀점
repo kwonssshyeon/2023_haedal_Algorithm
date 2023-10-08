@@ -15,3 +15,82 @@ ids[]가 같으면 같은 덩어리
 
  connected component를 tree로 보고 ids[i]를 parent라고 하면
  root가 같으면 같은 덩어리
+
+
+ 왜 시간초과가 뜨지?
+ import sys
+
+input = sys.stdin.readline
+ary = []
+a, b, c = 0, 0, 0
+N, M = map(int, input().split(" "))
+for _ in range(M):
+    ary.append(list(map(int, input().split(" "))))
+
+
+def unionFind(ary, N):
+    ids = []
+    for idx in range(N + 1):
+        ids.append(idx)
+
+    def connected(p, q):
+        return ids[p] == ids[q]
+
+    def minMax(a, b):
+        if a < b:
+            return a, b
+        else:
+            return b, a
+
+    def union(p, q):
+        id1, id2 = minMax(ids[p], ids[q])
+        for idx, _ in enumerate(ids):
+            if ids[idx] == id2:
+                ids[idx] = id1
+
+    for i in range(len(ary)):
+        if ary[i][0] == 0:
+            union(ary[i][1], ary[i][2])
+        else:
+            print("YES") if connected(ary[i][1], ary[i][2]) else print("NO")
+
+
+unionFind(ary, N)
+
+
+---
+import sys
+input = sys.stdin.readline
+ary = []
+a, b, c = 0, 0, 0
+N, M = map(int, input().split(" "))
+for _ in range(M):
+    ary.append(list(map(int, input().split(" "))))
+
+
+def unionFind(ary, N):
+    def find(x):
+        if parent[x] == x:
+            return x
+        parent[x] = find(parent[x])  # 경로 압축
+        return parent[x]
+
+    parent = list(range(N + 1))  # 각 원소의 부모를 자기 자신으로 초기화
+
+    def union(p, q):
+        root_p = find(p)
+        root_q = find(q)
+        if root_p != root_q:
+            parent[root_p] = root_q  # 균형 잡힌 트리 유지
+
+    for i in range(len(ary)):
+        if ary[i][0] == 0:
+            union(ary[i][1], ary[i][2])
+        else:
+            print("YES") if find(ary[i][1]) == find(ary[i][2]) else print("NO")
+
+
+unionFind(ary, N)
+
+런타임 에러 발생
+-> 재귀 호출의 깊이를 줄이기 위해 재귀 대신 반복문을 사용하여 경로 압축을 구현할 수 있습니다. 다음은 경로 압축을 반복문으로 구현한 코드입니다:
