@@ -3,9 +3,6 @@ import sys
 
 def is_balanced(ary):
     stack = []
-    if ary == ".":
-        return "yes"
-
     for char in ary:
         if char in "([":
             stack.append(char)
@@ -17,17 +14,15 @@ def is_balanced(ary):
             else:
                 return "no"
 
-    if not stack:
+    if len(stack) == 0:
         return "yes"
     else:
         return "no"
 
 
 while True:
-    try:
-        ary = input().strip()
-        if ary == ".":
-            break
-        print(is_balanced(ary))
-    except EOFError:
+    word = input().rstrip()
+    if word == ".":  # . 이 들어오면 종료
         break
+    # word = input().strip()
+    print(is_balanced(word))
