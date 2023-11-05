@@ -47,7 +47,23 @@
 ### note  
 
 -----
-
+is_prime 함수에 2까지 판별하는 부분은 이미 find_smallest_prime_from 함수에서 걸렀기 때문에 삭제했음.  
+함수 재사용을 위해서는 넣어놓는 것이 좋다.  
+> Full code:  
+```python
+def is_prime(n):
+    '''
+    if n == 2: 
+        return True
+    elif n < 2 or n % 2 == 0:
+        return False
+    '''
+    
+    for i in range(3, int(math.sqrt(n)) + 1, 2):
+        if n % i == 0:
+            return False
+    return True
+```
 <br>
 
 ### 알고리즘 분류
