@@ -3,18 +3,17 @@ import math
 
 input = sys.stdin.readline
 
+def find_gcd(a, b) -> int:
+    remainder = 1
+    while remainder:
+        remainder = a % b
+        a, b = b, remainder
+    return a
+
 if __name__ == "__main__":
     a, b = map(int, input().split())
 
-    bigger = max(a, b)
-    smaller = min(a, b)
-
-    remainder = 1
-    while remainder:
-        remainder = bigger % smaller
-        bigger, smaller = smaller, bigger % smaller
-    gcd = bigger
-
+    gcd = find_gcd(a, b)
     lcm = (a * b) // gcd
-
     print(lcm)
+    
