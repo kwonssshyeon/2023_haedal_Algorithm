@@ -17,3 +17,4 @@ for _ in range(N):
     test.append(input().rstrip())
 for test_case in test:
     print(origami(test_case))
+
