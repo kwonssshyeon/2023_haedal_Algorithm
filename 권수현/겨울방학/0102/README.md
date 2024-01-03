@@ -40,3 +40,7 @@ height가 바뀔때 마다 세로로 빗물 계산
 <br><br>
 ---
 옛날에도 풀었었음 -> [9월23일](권수현\9월\3주차\0923)
+
+뿌듯
+
+![스크린샷 2024-01-02 205643](https://github.com/kwonssshyeon/2023_haedal_Algorithm/assets/104684033/01cd51a4-fee5-40a0-b7fb-2000b2645592)
