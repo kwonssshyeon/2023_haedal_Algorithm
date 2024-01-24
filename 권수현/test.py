@@ -1,2 +1,6 @@
-list_to_set = [1,2,3,4,4]
-print(set(list_to_set))
+print(bin(1<<20))
+print(bin(2**20))
+print(2**20)
+
+a = (1,2)
+print(len(a))
