@@ -1,8 +1,10 @@
-a = '1101'
-
-a = int(a,2) ^ 1<<0 ^ 1<<2
-print(a)
-print(bin(a))
-print(type(int(bin(a)[2:])),int(bin(a)[2:]))
-
-b = 111
+l = ["A", "B", "C"]
+r = []
+for i in range(1, 1 << len(l)):
+    tmp = ""
+    for j in range(len(l)):
+        
+        if (i & 1 << j) != 0:
+            tmp += l[j]
+    r.append(tmp)
+print(r)
