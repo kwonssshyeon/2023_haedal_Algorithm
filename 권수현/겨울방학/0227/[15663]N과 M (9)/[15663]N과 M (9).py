@@ -1,12 +1,9 @@
 # 백트래킹(순열X)
-
 import sys
 input = sys.stdin.readline
 
 n,m = map(int,input().split())
-nums = list(map(int,input().split()))
-
-nums.sort()
+nums = sorted(list(map(int,input().split())))
 
 visited = [False]*n
 temp = []
